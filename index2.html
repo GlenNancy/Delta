@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cabeca">
+        <nav>
+            <a href="index.html">Produto</a>
+            <a href="https://brasilescola.uol.com.br/matematica/equacao-2-grau.htm#:~:text=A%20equa%C3%A7%C3%A3o%20do%202%C2%BA%20grau%20%C3%A9%20representada%20por%3A%20ax%C2%B2%2Bbx,reais%2C%20com%20a%20%E2%89%A0%200." class="link" target="_blank">Explicação</a>
+            <a href="index3.html" class="link">Criadores</a>
+        </nav>
+        <span class="logo">Equática</span>
+    </div>
+    <a href="index.html"><div><img src="img/seta4.png" alt="seta" class="seta"></div></a>
+    <main class="corpo">
+        <span class="title" id="title">Equática</span><br>
+        <div class="formula">
+            <p><span id="z">A</span>² + <span id="zz">B</span>x + <span id="zzz">C</span> = 0</p><br>
+        </div>
+        <input type="number" name="a" id="a" class="a" placeholder="Valor A">
+        <input type="number" name="b" id="b" class="b" placeholder="Valor B">
+        <input type="number" name="c" id="c" class="c" placeholder="Valor C"><br>
+        <input type="button" value="Equáticar" class="calc1" onclick="calcular()">
+        <input type="button" class="calc2" value="Limpar" onclick="limpar()"><br>
+        <div class="res" id="res">Resultado</div><br>
+        <div class="delta" id="delta">Δ=  X</div><br>
+        <span class="x1" id="x1">x¹</span>
+        <span class="x2" id="x2">x²</span>
+    </main>
+</body>
+</html>

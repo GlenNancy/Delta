@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/img3.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.cabeca{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+a:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
+.a{
+    padding-left: 25px;
+    border-left: 2.5px solid black;
+}
+.logo{ 
+    font-size: 32px;
+    font-family: 'Mulish';
+    margin-right: 80px;
+}
+.texto{
+    margin: 0;
+    font-family: 'Mulish';
+    font-size: 21px;
+    padding-left: 150px;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.6px #000;
+}
+.teste{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.botao{
+    width: 150px;
+    height: 40px;
+    border: 1.5px solid rgb(0, 0, 0);
+    font-size: 14px;
+}
+.botao:hover{
+    border: 1.3px solid rgb(70, 70, 70);
+    opacity: 0.9;
+    cursor: pointer; 
+    transition: 0.2s ease-in-out;
+    background: rgb(207, 207, 207); 
+}
+.ab{
+   font-size: 14px;
+   text-decoration: none;
+   padding: 0;
+   margin: 0; 
+}
+.criadores{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

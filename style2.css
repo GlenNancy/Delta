@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    font-family: 'Mulish';
+}
+.cabeca{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid black;
+}
+.seta{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 45px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+.link{
+        padding-left: 25px;
+        border-left: 2.5px solid black;
+}
+.logo{ 
+    font-size: 32px;
+    font-family: 'Mulish';
+    margin-right: 80px;
+}
+/*---------------------------------------------------*/
+.corpo{
+    background-color: black;
+    color: white;
+    width: 750px;
+    height: 480px;
+    margin: auto;
+    padding-top: 35px;
+    border-radius: 7px;
+    margin-top: -35px;
+}
+.title{
+    font-size: 30px;
+    margin-left: 300px;
+}
+.formula{
+    width: 450px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin-left: 143px;
+    margin-top: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.a{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 143px;
+}
+.b{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 89px;
+}
+.c{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 89.2px;
+}
+.calc1{
+    width: 210px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 143px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.calc1:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
+.calc2{
+    width: 210px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 26px;
+}
+.calc2:hover{
+    opacity: 0.8;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
+.res{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 295px;
+}
+.delta{
+    width: 450px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin-left: 143px;
+}
+.x1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 45px;
+    margin-left: 143px;
+    background-color: white;
+    color: black;
+    float: left;
+}
+.x2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 45px;
+    margin-left: 383px;
+    background-color: white;
+    color: black;
+}
